@@ -22,9 +22,13 @@ import android.view.View;
 
 public class MainBearingActivity extends Activity {
 	volatile float bearing = 0;
+	
 	volatile float lat = 0;
+	
 	volatile float lng = 0;
+	
 	GingerbreadLastLocationFinder bestLocator;
+	
 	float red = 0;
 
 	@Override
